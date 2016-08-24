@@ -1,0 +1,33 @@
+{
+  "name": "dmitrythedesigner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+        "prestart": "clear",
+        "start": "parallelshell 'nodemon server.js' 'gulp'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comajumper/dmitrythedesigner.git"
+  },
+  "author": "Dmitry Bykov",
+  "homepage": "http://dmitrythedesigner.com",
+  "dependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "express-handlebars": "^3.0.0",
+      "nodemon": "^1.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "latest",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.12",
+    "gulp-watch": "latest",
+    "browser-sync": "^2.8.1",
+    "parallelshell": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
