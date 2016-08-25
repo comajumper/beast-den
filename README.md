@@ -6,3 +6,9 @@ Clone this repository and install node modules specified in package.json
 ```bash
 npm install
 ```
+
+## Run server
+Automatically run Gulp watcher and Express server.
+```bash
+npm start
+```
